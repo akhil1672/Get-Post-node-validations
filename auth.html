@@ -1,0 +1,28 @@
+<html>
+    <title>Render and validations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <body><center>
+    <div class='container'>
+        <form action="http://localhost:8080/" method="get">
+            <h1>
+                Authenticate
+            </h1>
+         UserName:<input type="text" name="username"></input>
+        </br>
+         Password:<input type="password" name="password"></input>
+        </br>
+        <input type="submit" value="GET"></input>
+        </form>
+    </div>  
+    <div class='container'>
+    <form action="http://localhost:8080/" method="post">
+        Enter your nickname:
+        <input type='text' name='nickname'>
+    </br>
+        <input type="submit" value="POST"></input>
+    </form></div>
+    </center></body>
+</html>
